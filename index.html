@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моето Портфолио от Продукти</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #662d91;
+        }
+        header {
+            background-color: #662d91;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #99258e;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #e5af55;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .product img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        .product h2 {
+            margin: 0;
+            font-family: 'Old Standard TT', serif;
+            color: #e5af55;
+        }
+        .product p {
+            margin: 5px 0;
+        }
+        .product a {
+            color: #662d91;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #99258e;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Моето Портфолио от Продукти</h1>
+    </header>
+    <nav>
+        <a href="#products">Продукти</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+    <section id="products">
+        <h2>Продукти</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Продукт 1">
+            <div>
+                <h2>Продукт 1</h2>
+                <p>Описание на продукт 1. Това е невероятен продукт, който препоръчвам.</p>
+                <a href="https://example.com">Купи сега</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Продукт 2">
+            <div>
+                <h2>Продукт 2</h2>
+                <p>Описание на продукт 2. Това е невероятен продукт, който препоръчвам.</p>
+                <a href="https://example.com">Купи сега</a>
+            </div>
+        </div>
+        <!-- Добави повече продукти тук -->
+    </section>
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Можете да се свържете с мен на:</p>
+        <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+        <p>Телефон: <a href="tel:+359123456789">+359 123 456 789</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Моето Портфолио от Продукти. Всички права запазени.</p>
+    </footer>
+</body>
+</html>
